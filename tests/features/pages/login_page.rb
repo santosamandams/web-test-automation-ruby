@@ -5,11 +5,11 @@ class LoginPage < SitePrism::Page
     element :botao_login, '#Login'
     
     def preencher_usuario
-        usuario.set 'amsantos@inmetrics.com.br.hml'
+        usuario.set 'user@user.com.br'
     end
 
     def preencher_senha
-        senha.set 'Thebigbang!0494'
+        senha.set 'password'
     end
 
     def clicar_botao_login

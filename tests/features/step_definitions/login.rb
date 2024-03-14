@@ -5,7 +5,6 @@ Dado("que eu acesso a pagina principal do Salesforce") do
   Quando("eu preencher os campos <login> e <senha>") do
     login.preencher_usuario
     login.preencher_senha
-    # @login.clicar_botao_login
     sleep(30) # esperar para inserir codigo de seguranca 
   end
   

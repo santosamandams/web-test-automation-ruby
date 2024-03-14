@@ -16,7 +16,5 @@ element :conveniencia, '#pageMenuSuperior:formMenuSuperior:j_id64'
 element :avisoViagem, '#pageMenuSuperior:formMenuSuperior:cmdAviso'
 element :seguros, '#pageMenuSuperior:formMenuSuperior:cmdSeguros'
 element :atendimento, '#pageMenuSuperior:formMenuSuperior:j_id71'
-
-
     
 end

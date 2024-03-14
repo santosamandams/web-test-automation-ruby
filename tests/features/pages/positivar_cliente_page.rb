@@ -5,13 +5,6 @@ class PositivarClientePage < SitePrism::Page
     # element :clientePositivado, '.labelTitulo'
     
     def adicionar_codigo
-        adicionar.click
-        # codigo.set '/apex/Identificar?documento=21496480910D1D1D'
-        # botaoIr.click
-        
+        adicionar.click 
     end
-
-    # def validar_cliente_positivado
-                
-    # end
 end
