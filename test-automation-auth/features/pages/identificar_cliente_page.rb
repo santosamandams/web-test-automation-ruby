@@ -4,7 +4,7 @@ class IdentificarClientePage < SitePrism::Page
     element :botaoConfirmar, '#pageIdentificar:formPositivacao:j_id58'
 
     def preencher_cpf
-        cpf.set '21496480910'        
+        cpf.set ''        
     end
 
     def clicar_botao_confirmar
